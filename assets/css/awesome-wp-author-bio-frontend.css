@@ -1,0 +1,449 @@
+/* This is frontend css */
+.jltauthorbio {
+    max-width: 100%;
+    margin: auto;
+    min-height: 100px;
+    background: #ddd;
+    
+    padding: 10px;
+    overflow: hidden;
+}
+.entry-content a{
+    box-shadow: none !important;
+}
+.jltauthorbio a {
+    text-decoration: none;
+}
+
+.jeweltheme-wp-author-image {
+    position: relative;
+}
+
+.jeweltheme-wp-author-image img {
+    display: block;
+    margin: auto !important;
+    
+    cursor: pointer;
+}
+
+.jeweltheme-wp-author-name a {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.jeweltheme-wp-author-name a:hover{
+    text-decoration: none;
+}
+
+.jeweltheme-wp-author-image-area {
+    width: 22%;
+    float: left;
+}
+
+.jeweltheme-wp-author-other {
+    float: left;
+    width: 78%;
+}
+
+.jltauthorbio ul {
+   margin: 0px !important;
+   padding:0px !important;
+}
+
+.jltauthorbio li {
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 1.09em;
+}
+
+.jltauthorbio .resp-tab-content li {
+    border-bottom: 1px solid #ddd;
+}
+
+.jltauthorbio .resp-tab-content li:last-child {
+    border-bottom: none;
+}
+
+.jltauthorbio li a:hover {
+    opacity: .8;
+}
+
+.jltauthorbio li span {
+    font-size: .8em;
+}
+
+.jltauthorbio ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#hover-description {
+    display: none;
+    background-color: #000;
+    width: 420px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: .7;
+    color: #fff;
+    position: absolute;
+    z-index: 10002;
+    min-height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    left: 100px;
+    font-size: 15px;
+}
+
+
+#hover-description p{
+    margin: 0px;
+    padding:0px;
+}
+
+#hover-description:after {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: -23px;
+    
+    border-style: solid;
+    border-width: 28px 0px 0px 26px;
+    border-color: #000 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+/* Start Social Icons */
+
+
+.jeweltheme-wp-social-tab{
+    text-align: center;
+    padding-top: 35px !important;
+}
+
+
+.jeweltheme-wp-social-tab i{
+    width:60px;
+    height:50px;
+    text-align:center;
+}
+
+
+li.jeweltheme-wp-icon {
+    font-size: 22px;
+    
+    color: #fff;
+    
+    display: inline;
+    
+   
+    float: left;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+
+}
+
+li.jeweltheme-wp-icon a {
+    color: #fff;
+    
+
+}
+li.jeweltheme-wp-icon:hover {
+    box-shadow: inset 0 0 27px rgba(0, 0, 0, 0.45);
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-facebook {
+    background: #428bca;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-googleplus {
+    background: #CD1B20;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-twitter {
+    background: #00ADEF;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-linkedin {
+    background: #015886;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-dribbble {
+    background: #D92D84;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-pinterest {
+    background: #AC281A;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-youtube {
+    background: #CD1B20;
+}
+.jeweltheme-wp-social-tab li.jeweltheme-wp-flickr {
+    background: #FE0084;
+}
+
+
+
+
+
+
+li.jeweltheme-wp-icon {
+    display: inline;
+    float: none;
+}
+
+.jltauthorbio .resp-tab-content li:nth-child(4n):after {
+    content: ' ';
+    display: block;
+}
+
+.jltauthorbio .jeweltheme-wp-social-tab li{
+    padding: 10px 0px;
+    margin:0px 3px;
+    position:static !important;
+}
+
+
+
+/* end social icons */
+
+
+
+
+
+.resp-tabs-list li {
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px 8px !important;
+    margin:0px !important;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+   
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+    box-shadow: 0px -1px 0 0px rgba(0,0,0,0.1), 0px 0 0px rgba(0,0,0,0.1);
+    position: static !important;
+}
+
+.resp-tabs-list li:last-child {
+    border-top-right-radius: 0px;
+}
+
+.resp-tabs-list li:first-child {
+    border-top-left-radius: 0px;
+    border-left:none;
+}
+
+
+/* Strat Tab Styling  */
+
+
+ul.resp-tabs-list, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+    
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+    margin: 0px! important;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 15px;
+}
+
+.resp-tab-active {
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    border-bottom: none;
+    margin-bottom: -1px !important;
+    
+    color: #385C5B !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+    float: left;
+    width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+    display: block;
+    padding: 15px 15px !important;
+    margin: 0;
+    cursor: pointer;
+    float: none;
+}
+
+.resp-vtabs .resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+    border: none;
+}
+
+.resp-vtabs li.resp-tab-active {
+    border: 1px solid #c1c1c1;
+    border-right: none;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-right: -1px !important;
+    padding: 14px 15px 15px 14px !important;
+}
+
+.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid #f2f2f2;
+}
+
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #f2f2f2;
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #DBDBDB !important;
+}
+
+.resp-easy-accordion  h2.resp-accordion {
+    display: block;
+}
+
+.resp-easy-accordion .resp-tab-content {
+    border: 1px solid #c1c1c1;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1 !important;
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: 1px solid #c1c1c1 !important;
+}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+
+@media only screen and (max-width: 768px) {
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+        background: #6CAEAB !important;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+
+    .jeweltheme-wp-author-other {
+        clear: both;
+        width: 100%;
+    }
+
+    .jeweltheme-wp-author-image-area {
+        width: 100%;
+        float: none;
+    }
+
+    #hover-description {
+        max-width: 80%;
+    }
+
+    .jeweltheme-wp-author-name a{
+        font-size: 1.3em;
+        padding-bottom: 10px;
+    }
+}
